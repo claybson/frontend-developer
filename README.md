@@ -6,7 +6,7 @@ Envie o teste abaixo e o currículo até dia 25/05.
 
 OBS.: Vaga presencial
 
-## Passo a passo v1
+## Passo a passo (Opção 1)
  - Dê um fork no repositório
 
  - Clone o repo para o seu local
@@ -19,10 +19,13 @@ OBS.: Vaga presencial
  
  - Finalize com o pull request da sua branch
 
-## Passo a passo v2
+## Passo a passo (Opção 2)
  - [Baixe o projeto](https://github.com/agenciaopera/frontend-developer/archive/master.zip)
  
  - Desenvolva-o e envie por e-mail para [vagas@agenciaopera.com.br](mailto:vagas@agenciaopera.com.br)
+
+## Passo a passo (Opção 3)
+ Caso tenha o interesse, mas não tenha tempo, envie para o e-mail [vagas@agenciaopera.com.br](mailto:vagas@agenciaopera.com.br) o seu portfólio e nos fale um pouco sobre você.
 
 ## Sobre o Layout:
 - Site é onepage (animando os itens para cada sessão sem sair ou dar refresh);

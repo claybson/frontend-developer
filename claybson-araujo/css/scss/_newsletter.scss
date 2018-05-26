@@ -1,0 +1,79 @@
+.newsletter {
+	background-color: $amarelo;
+	height: 440px;
+
+	.content{
+		margin-top: 50px;
+		margin-bottom: 30px;
+		.text-newsletter {
+			font-size: 22px;
+			color: $cinza-escuro;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: left;
+			display: block;
+
+			.fa-newspaper {
+				margin-left: 20px;
+				font-size: 30px;
+			}
+		}
+
+		.title-newsletter {
+			color: $cinza-escuro;
+			font-size: 40px;
+			text-transform: uppercase;
+			text-align: left;
+			font-weight: bold;
+			display: block;
+		}
+	}
+
+	form {
+		input {
+			width: 100%;
+			height: 50px;
+			margin: 10px 0px;
+			padding: 10px;
+		}
+
+		#enviar {
+			background: $azul;
+			color: $branco;
+			font-weight: bold;
+		}
+	}
+
+	::placeholder {
+		color: $cinza;
+		text-align: center;
+		font-style: italic;
+	}
+
+}
+
+@media (min-width: $screen-sm-min){
+	.newsletter {
+		height: 230px !important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		form {
+			display: inline !important;
+			margin-top: 50px !important;
+
+			input {
+				width: 43% !important;
+				margin-left: 2px;
+				
+			}
+
+			#enviar {
+				width: 10% !important;
+				margin-left: 0px;
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,39 @@
+.contato {
+	height: 420px;
+	background-color: $amarelo;
+
+	.text-contato {
+		font-size: 22px;
+		text-align: center;
+		font-style: italic;
+		padding: 15px 0px;
+		font-weight: bold;
+		margin-top: 30px;
+	}
+
+	.btn-contato {
+		color: $azul;
+		font-size: 25px;
+		font-weight: bold;
+		font-style: italic;
+		border: 1px solid $azul;
+		display: inline-block;
+		margin-top: 30px;
+		padding: 10px;
+	}
+}
+
+
+@media (min-width: $screen-sm-min){
+	.contato {
+		height: 215px;
+
+		.text-contato {
+			margin-top: 0px;
+		}
+
+		.btn-contato {
+			margin-top: 75px;
+		}
+	}
+}

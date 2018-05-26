@@ -1,0 +1,31 @@
+/*CORES*/
+$azul: #5CA2DB;
+$azul-escuro: #174E7C;
+$branco: #fff;
+$cinza: #707070;
+$cinza-escuro: #4A4B4B;
+$amarelo: #FFD57B;
+$verde: #e5ff9f;
+$preto: #2a2a2a;
+
+/*FONTES*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*MEDIA QUERY*/
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+.nospace{
+	margin: 0;
+	padding: 0;
+}
+
+.border-right-0 {
+	border-right: none !important;
+}
+
+
